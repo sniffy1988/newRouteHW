@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-md-6">
+    Enter count in HRV
+    <input type="text" ng-model="page.hrv">
+    <div>
+      Enter course dollar to Dollar
+      <input type="text" ng-model="page.course">
+    </div>
+    <div>Amount in HRV: <b>{{page.hrv * page.course| currency}}</b></div>
+  </div>
+</div>
